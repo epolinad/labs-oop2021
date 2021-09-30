@@ -57,7 +57,7 @@ namespace Prog2 {
 
 		char* s = new char[l];
 		
-		sprintf_s(s, l, "{x = %.2fcos(t) + %.2fcos(2t) + %.2f, y = %.2fsin(t) - %.2fsin(2t) + %.2f}", 2*r, r, p.x, 2*r, r, p.y);
+		sprintf_s(s, l, "{x = %.2fcos(t) + %.2fcos(2t) + %.2f, y = %.2fsin(t) - %.2fsin(2t) + %.2f}\n", 2*r, r, p.x, 2*r, r, p.y);
 		return s;
 	}
 }
